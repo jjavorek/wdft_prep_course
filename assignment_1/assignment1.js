@@ -40,13 +40,12 @@ Use the console.log() function and the array .pop() to add all the values in the
 */
 
 var sum = 0;
-/* remove this line to uncomment the code block
-while(numbers.length != 0){
-    //write pop function here
-}
-remove this line to uncomment the code block */
-console.log(sum);
 
+while(numbers.length != 0){
+    sum += numbers.pop();
+}
+
+console.log(sum);
 
 /*
 Exercise #5
