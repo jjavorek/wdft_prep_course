@@ -4,6 +4,11 @@ Initialize an empty array below in the variable numbers.
 */
 var numbers;
 
+var numbers = [];
+
+// or
+
+var numbers = new Array();
 
 /*
 Exercise #2
