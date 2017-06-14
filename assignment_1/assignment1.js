@@ -16,10 +16,14 @@ Exercise #2
 Using the loop provided for you below, use an array's push method to insert the nummbers  0 to 10 into positions 0 through 10 of the numbers array you just initialized above.'If you're not sure how to use the array push method go back and re read this module on data strucutres.'
 */
 
-for(var i=0;i<10;i++){
-    //use the array push() method here.
-}
+// for(var i=0;i<10;i++){
+//     //use the array push() method here.
+// }
 
+const numbers = [];
+for (let i=0; i<10; i++){
+	numbers.push(i);
+}
 
 /*
 Exercise #3
@@ -27,7 +31,7 @@ Test that you used the array push method correctly by printing the sum of the va
 The outputted value should be 9.
 */
 
-
+console.log(numbers[3] + numbers[6])
 
 
 /*
