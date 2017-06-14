@@ -28,42 +28,70 @@ div
 /***************************/
 
 /* FIRST ROW : FLOATS; */
+
+
 .a1 {
+	float:right;
 }
 
 .b1 {
+	float:left;
 }
 
 .c1 {
+	float:right;
 }
 
 .d1 {
+	float:left;
 }
 
 /* SECOND ROW : DISPLAY */
 
 .a2 {
+	display: inline-block;
 }
 
 .b2 {
+	display: none;
 }
 
 .c2 {
+	display: inline;
 }
 
 .d2 {
+	display: block;
 }
 
 /* THIRD ROW : POSITION */
 
 .a3 {
+	position:relative;
 }
 
 .b3 {
+	position: absolute;
+    top: 400px;
+	right: 700px;
+	bottom: 500px;
+	left: 300px;
 }
 
 .c3 {
+	position:fixed;
+	top: 500px;
+	right: 10px;
+	bottom: 100px;
+	left: 1200px;
 }
 
 .d3 {
+	position: absolute;
+    top: 300px;
+	right: 500px;
+	bottom: 500px;
+	left: 500px;
+    z-index: -1;
 }
+
